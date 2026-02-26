@@ -460,19 +460,17 @@
                     </div>
                 </div>
 
-                <!-- Right Column - Image -->
+                <!-- Right Column - Video -->
                 <div class="relative group perspective-1000">
                     <div
-                        class="relative transform transition-all duration-700 group-hover:scale-105 group-hover:-rotate-1">
-                        <div class="relative overflow-hidden rounded-2xl"
-                            style="--tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0); --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color); box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);">
-                            <div class="absolute inset-0 via-transparent"
-                                style="--tw-gradient-to: rgb(168 85 247 / 0); mix-blend-mode: overlay;"></div>
-                            <img src="images/newbanner1.webp" alt="Driver Health Check"
-                                class="w-full h-auto transform transition-transform duration-700 group-hover:scale-110">
-                            <div
-                                class="absolute inset-0 transform transition-all duration-700 group-hover:scale-105 group-hover:border-blue-500/40">
-                            </div>
+                        class="relative transform transition-all duration-700 group-hover:scale-[1.02] group-hover:-rotate-1">
+                        <div class="relative overflow-hidden rounded-2xl shadow-xl aspect-[9/16] max-h-[500px] mx-auto">
+                            <iframe src="https://www.youtube.com/embed/H6eZKWThwMU"
+                                title="Neck, Back Pain, or Headaches - Chiropractic Care"
+                                class="absolute inset-0 w-full h-full"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen>
+                            </iframe>
                         </div>
                     </div>
                 </div>
@@ -603,7 +601,7 @@
 
                         <!-- Image -->
                         <div class="relative group">
-                            <img src="images/doctors.png" alt="Driver Care"
+                            <img src="images/doctors-new.png" alt="Driver Care"
                                 class="w-full h-auto   transform transition-all duration-700 group-hover:scale-105 group-hover:-rotate-1">
                         </div>
                     </div>
@@ -1018,52 +1016,219 @@
                     for their chiropractic care.</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Review 1 -->
-                <div class="group relative h-full">
-                    <div
-                        class="relative rounded-xl shadow-lg transform transition-all duration-300 group-hover:scale-105 bg-white/90 backdrop-blur-sm p-6 h-full flex flex-col">
-                        <div class="flex items-center justify-between mb-4">
-                            <div class="font-semibold text-gray-800">Sarah B.</div>
-                            <div class="flex text-yellow-400">
-                                <span class="text-sm">★★★★★</span>
+            <!-- Carousel Container -->
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="overflow-hidden" id="testimonials-container">
+                    <div class="flex transition-transform duration-500 ease-in-out" id="testimonials-track">
+                        <!-- Review 1 -->
+                        <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-3">
+                            <div class="h-full group relative">
+                                <div
+                                    class="relative rounded-xl shadow-lg transform transition-all duration-300 group-hover:scale-105 bg-white/90 backdrop-blur-sm p-6 h-full flex flex-col">
+                                    <div class="flex items-center justify-between">
+                                        <div class="font-semibold text-gray-800">
+                                            Ashley Phelan</div>
+                                        <div class="flex text-yellow-400">
+                                            <span class="text-sm">★★★★★</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center justify-between mb-4">
+                                        <span class="text-gray-600 text-xs">a week ago</span>
+                                    </div>
+                                    <p class="text-gray-600 flex-grow">"We love all the staff at Smart Pain Solutions.
+                                        Friendly and flexible hours that make it super easy to receive treatment when
+                                        needed."</p>
+                                </div>
                             </div>
                         </div>
-                        <p class="text-gray-600 flex-grow">"My neck and back pain are so much better, and I can sit at
-                            work without constant discomfort."</p>
+
+                        <!-- Review 2 -->
+                        <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-3">
+                            <div class="h-full group relative">
+                                <div
+                                    class="relative rounded-xl shadow-lg transform transition-all duration-300 group-hover:scale-105 bg-white/90 backdrop-blur-sm p-6 h-full flex flex-col">
+                                    <div class="flex items-center justify-between">
+                                        <div class="font-semibold text-gray-800">
+                                            Joan Evans</div>
+                                        <div class="flex text-yellow-400">
+                                            <span class="text-sm">★★★★★</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center justify-between mb-4">
+                                        <span class="text-gray-600 text-xs">2 weeks ago</span>
+                                    </div>
+                                    <p class="text-gray-600 flex-grow">"Everyone is very nice and friendly. They Fixed
+                                        my shoulder pain with no pressure to keep coming back and had the best massage.
+                                        Highly recommended!!!"</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Review 3 -->
+                        <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-3">
+                            <div class="h-full group relative">
+                                <div
+                                    class="relative rounded-xl shadow-lg transform transition-all duration-300 group-hover:scale-105 bg-white/90 backdrop-blur-sm p-6 h-full flex flex-col">
+                                    <div class="flex items-center justify-between">
+                                        <div class="font-semibold text-gray-800">Jessica Carson</div>
+                                        <div class="flex text-yellow-400">
+                                            <span class="text-sm">★★★★★</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center justify-between mb-4">
+                                        <span class="text-gray-600 text-xs">3 months ago</span>
+                                    </div>
+                                    <p class="text-gray-600 flex-grow">"The team was very friendly and welcoming which
+                                        gave a great first impression.
+                                        Dr Walker was wonderful. He listened, explained things as he went through with
+                                        the adjustment and gave some helpful information.
+                                        Happy with our experience!"</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Review 4 -->
+                        <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-3">
+                            <div class="h-full group relative">
+                                <div
+                                    class="relative rounded-xl shadow-lg transform transition-all duration-300 group-hover:scale-105 bg-white/90 backdrop-blur-sm p-6 h-full flex flex-col">
+                                    <div class="flex items-center justify-between">
+                                        <div class="font-semibold text-gray-800">
+                                            Kathleen Buchheit</div>
+                                        <div class="flex text-yellow-400">
+                                            <span class="text-sm">★★★★★</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center justify-between mb-4">
+                                        <span class="text-gray-600 text-xs">3 months ago</span>
+                                    </div>
+                                    <p class="text-gray-600 flex-grow">"Staff was very welcoming. There is easy and also
+                                        professional atmosphere in office. Staff works like a team. Dr Sarah listens and
+                                        is very knowledgeable. It’s obvious she cares. I felt the synergy. I see hope in
+                                        future visits. Blessings A team!"</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Review 5 -->
+                        <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-3">
+                            <div class="h-full group relative">
+                                <div
+                                    class="relative rounded-xl shadow-lg transform transition-all duration-300 group-hover:scale-105 bg-white/90 backdrop-blur-sm p-6 h-full flex flex-col">
+                                    <div class="flex items-center justify-between">
+                                        <div class="font-semibold text-gray-800">
+                                            David Marti</div>
+                                        <div class="flex text-yellow-400">
+                                            <span class="text-sm">★★★★★</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center justify-between mb-4">
+                                        <span class="text-gray-600 text-xs">4 months ago</span>
+                                    </div>
+                                    <p class="text-gray-600 flex-grow">"The medical team at Smart Pain Solutions is
+                                        truly amazing. For years I had back problems that had been diagnosed as muscle
+                                        problems at a hospital. I made an appointment at Smart Pain Solutions and was
+                                        x-rayed and treated for arthritis of the spine. I was instructed about helpful
+                                        exercises. My condition has improved 1000%. Life changing! Thank you!"</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Review 6 -->
+                        <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-3">
+                            <div class="h-full group relative">
+                                <div
+                                    class="relative rounded-xl shadow-lg transform transition-all duration-300 group-hover:scale-105 bg-white/90 backdrop-blur-sm p-6 h-full flex flex-col">
+                                    <div class="flex items-center justify-between">
+                                        <div class="font-semibold text-gray-800">Lady K</div>
+                                        <div class="flex text-yellow-400">
+                                            <span class="text-sm">★★★★★</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center justify-between mb-4">
+                                        <span class="text-gray-600 text-xs">7 months ago</span>
+                                    </div>
+                                    <p class="text-gray-600 flex-grow">"Awesome and affordable comes to mind when I
+                                        think of this company. Professional and friendly staff. I was nervous about
+                                        renewing my CDL after 2 years but the staff made me feel so much better just
+                                        doing my DOT Medical exam today and I felt encouraged. Thank you guys again
+                                        🫶🏽"</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Review 2 -->
-                <div class="group relative h-full">
-                    <div
-                        class="relative rounded-xl shadow-lg transform transition-all duration-300 group-hover:scale-105 bg-white/90 backdrop-blur-sm p-6 h-full flex flex-col">
-                        <div class="flex items-center justify-between mb-4">
-                            <div class="font-semibold text-gray-800">John D.</div>
-                            <div class="flex text-yellow-400">
-                                <span class="text-sm">★★★★★</span>
-                            </div>
-                        </div>
-                        <p class="text-gray-600 flex-grow">"They listened, explained everything clearly, and gave me
-                            exercises that actually help. Extremely professional!"</p>
-                    </div>
-                </div>
-
-                <!-- Review 3 -->
-                <div class="group relative h-full">
-                    <div
-                        class="relative rounded-xl shadow-lg transform transition-all duration-300 group-hover:scale-105 bg-white/90 backdrop-blur-sm p-6 h-full flex flex-col">
-                        <div class="flex items-center justify-between mb-4">
-                            <div class="font-semibold text-gray-800">Maria R.</div>
-                            <div class="flex text-yellow-400">
-                                <span class="text-sm">★★★★★</span>
-                            </div>
-                        </div>
-                        <p class="text-gray-600 flex-grow">"Best chiropractic experience in St. Louis. I felt relief
-                            after my first visit and the rehab exercises are life-changing."</p>
-                    </div>
-                </div>
+                <!-- Navigation Buttons -->
+                <button id="prev-btn"
+                    class="absolute left-0 top-1/2 -translate-y-1/2 -ml-4 md:-ml-12 bg-white text-blue-600 p-3 rounded-full shadow-lg hover:bg-blue-50 focus:outline-none z-10 transition-transform hover:scale-110">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7">
+                        </path>
+                    </svg>
+                </button>
+                <button id="next-btn"
+                    class="absolute right-0 top-1/2 -translate-y-1/2 -mr-4 md:-mr-12 bg-white text-blue-600 p-3 rounded-full shadow-lg hover:bg-blue-50 focus:outline-none z-10 transition-transform hover:scale-110">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </button>
             </div>
+
+            <!-- Carousel Script -->
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    const track = document.getElementById('testimonials-track');
+                    const nextBtn = document.getElementById('next-btn');
+                    const prevBtn = document.getElementById('prev-btn');
+                    const cards = track.children;
+                    const totalCards = cards.length;
+                    let currentIndex = 0;
+
+                    // Function to determine cards per view based on viewport width
+                    function getCardsPerView() {
+                        if (window.innerWidth >= 1024) return 3; // lg
+                        if (window.innerWidth >= 768) return 2;  // md
+                        return 1;                                // base
+                    }
+
+                    function updateCarousel() {
+                        const cardsPerView = getCardsPerView();
+                        const cardWidth = 100 / cardsPerView;
+                        const maxIndex = totalCards - cardsPerView;
+
+                        // Ensure index stays within bounds
+                        if (currentIndex > maxIndex) currentIndex = 0;
+                        if (currentIndex < 0) currentIndex = maxIndex;
+
+                        track.style.transform = `translateX(-${currentIndex * cardWidth}%)`;
+                    }
+
+                    nextBtn.addEventListener('click', () => {
+                        const cardsPerView = getCardsPerView();
+                        const maxIndex = totalCards - cardsPerView;
+                        if (currentIndex < maxIndex) {
+                            currentIndex++;
+                        } else {
+                            currentIndex = 0; // Loop back to start
+                        }
+                        updateCarousel();
+                    });
+
+                    prevBtn.addEventListener('click', () => {
+                        const cardsPerView = getCardsPerView();
+                        const maxIndex = totalCards - cardsPerView;
+                        if (currentIndex > 0) {
+                            currentIndex--;
+                        } else {
+                            currentIndex = maxIndex; // Loop to end
+                        }
+                        updateCarousel();
+                    });
+
+                    // Update on resize
+                    window.addEventListener('resize', () => {
+                        updateCarousel();
+                    });
+                });
+            </script>
 
             <!-- CTA Button -->
             <div class="mt-12 text-center">
@@ -1183,7 +1348,7 @@
                             <div
                                 class="absolute inset-0 bg-gradient-to-br from-blue-500/20 via-transparent to-purple-500/20 mix-blend-overlay">
                             </div>
-                            <img src="images/about4.png" alt="DOT Certified Examiner"
+                            <img src="images/faq.webp" alt="DOT Certified Examiner"
                                 class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110">
                         </div>
                     </div>
@@ -1220,11 +1385,9 @@
     <section id="cta" class="py-20 relative overflow-hidden">
         <!-- Animated Background -->
         <div class="absolute inset-0">
-<<<<<<< HEAD
             <img src="images/newbanner1.webp" alt="Neck pain Background" class="w-full h-full object-cover">
-=======
+            =======
             <img src="images/newbanner1.webp" alt="Truck Driver Background" class="w-full h-full object-cover">
->>>>>>> 402058e73cf393e7eca1cd84d9f674b6de685298
             <div class="absolute inset-0 bg-gradient-to-br from-blue-900/90 to-purple-900/90"></div>
         </div>
 
@@ -1304,17 +1467,20 @@
                         </a>
                     </div>
                     <div class="mt-4">
-                        <img src="images/doctors.png" alt="Contact Information"
+                        <img src="images/doctors-new.png" alt="Contact Information"
                             class="w-full h-auto rounded-lg shadow-lg">
                     </div>
                 </div>
 
-<!-- Bridgeton Location -->
+                <!-- Bridgeton Location -->
                 <div class="space-y-4">
                     <h3 class="text-xl font-semibold mb-4">Bridgeton Location</h3>
                     <div class="space-y-2">
-                        <p class="text-gray-400">Email: <a href="mailto:thefrontdesk@smartpainsolutions.com" class="text-white hover:text-blue-400 transition-colors">thefrontdesk@smartpainsolutions.com</a></p>
-                        <p class="text-gray-400">Phone: <a href="tel:3142981400" class="text-white hover:text-blue-400 transition-colors">(314) 298-1400</a></p>
+                        <p class="text-gray-400">Email: <a href="mailto:thefrontdesk@smartpainsolutions.com"
+                                class="text-white hover:text-blue-400 transition-colors">thefrontdesk@smartpainsolutions.com</a>
+                        </p>
+                        <p class="text-gray-400">Phone: <a href="tel:3142981400"
+                                class="text-white hover:text-blue-400 transition-colors">(314) 298-1400</a></p>
                         <p class="text-gray-400">Fax: (314) 298-1401</p>
                     </div>
                     <div class="mt-4">
@@ -1324,14 +1490,10 @@
                         <p class="text-white">Bridgeton MO 63044</p>
                     </div>
                     <div class="mt-4 aspect-[4/3] w-full">
-                        <iframe 
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.753642323633!2d-90.42072222402416!3d38.746415171756624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87df3184b440dc1f%3A0xfe3c2ad146c68e05!2sSmart%20Pain%20Solutions!5e0!3m2!1sen!2sus!4v1747801146007!5m2!1sen!2sus" 
-                            class="w-full h-full rounded-lg"
-                            style="border:0;" 
-                            allowfullscreen="" 
-                            loading="lazy" 
-                            referrerpolicy="no-referrer-when-downgrade"
-                        ></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.753642323633!2d-90.42072222402416!3d38.746415171756624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87df3184b440dc1f%3A0xfe3c2ad146c68e05!2sSmart%20Pain%20Solutions!5e0!3m2!1sen!2sus!4v1747801146007!5m2!1sen!2sus"
+                            class="w-full h-full rounded-lg" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
 
@@ -1339,8 +1501,11 @@
                 <div class="space-y-4">
                     <h3 class="text-xl font-semibold mb-4">Clayton Location</h3>
                     <div class="space-y-2">
-                        <p class="text-gray-400">Email: <a href="mailto:clayton@smartpainsolutions.com" class="text-white hover:text-blue-400 transition-colors">clayton@smartpainsolutions.com</a></p>
-                        <p class="text-gray-400">Phone: <a href="tel:3147215390" class="text-white hover:text-blue-400 transition-colors">(314) 721-5390</a></p>
+                        <p class="text-gray-400">Email: <a href="mailto:clayton@smartpainsolutions.com"
+                                class="text-white hover:text-blue-400 transition-colors">clayton@smartpainsolutions.com</a>
+                        </p>
+                        <p class="text-gray-400">Phone: <a href="tel:3147215390"
+                                class="text-white hover:text-blue-400 transition-colors">(314) 721-5390</a></p>
                     </div>
                     <div class="mt-4">
                         <p class="text-gray-400">Address:</p>
@@ -1349,21 +1514,17 @@
                         <p class="text-white">Clayton MO 63105</p>
                     </div>
                     <div class="mt-4 aspect-[4/3] w-full">
-                        <iframe 
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3116.09441819976!2d-90.34327792402885!3d38.646709271778626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d8cb82a989ffa3%3A0xaaf6d188185ae4a0!2sSmart%20Pain%20Solutions!5e0!3m2!1sen!2sus!4v1747800956033!5m2!1sen!2sus" 
-                            class="w-full h-full rounded-lg"
-                            style="border:0;" 
-                            allowfullscreen="" 
-                            loading="lazy" 
-                            referrerpolicy="no-referrer-when-downgrade"
-                        ></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3116.09441819976!2d-90.34327792402885!3d38.646709271778626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d8cb82a989ffa3%3A0xaaf6d188185ae4a0!2sSmart%20Pain%20Solutions!5e0!3m2!1sen!2sus!4v1747800956033!5m2!1sen!2sus"
+                            class="w-full h-full rounded-lg" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
 
             </div>
 
             <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-                <p>&copy; 2024 Smart Pain Solutions. All rights reserved.</p>
+                <p>&copy; 2026 Smart Pain Solutions. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -1421,6 +1582,22 @@
             }
         });
     </script>
+    <!-- Floating Call Button -->
+    <a href="tel:3142981400"
+        class="fixed bottom-6 right-6 z-50 bg-blue-600 text-white p-4 rounded-full shadow-2xl hover:bg-blue-700 transition-all duration-300 hover:scale-110 group animate-float border-4 border-white">
+        <div class="flex items-center space-x-2">
+            <svg class="w-6 h-6 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
+                </path>
+            </svg>
+            <!-- <span class="font-bold hidden md:inline pr-1">(314) 298-1400</span> -->
+        </div>
+        <div
+            class="absolute -top-1 -right-1 w-4 h-4 bg-red-500 rounded-full border-2 border-white animate-ping opacity-75">
+        </div>
+    </a>
+
 </body>
 
 </html>
